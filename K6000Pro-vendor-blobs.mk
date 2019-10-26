@@ -8,4 +8,6 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/OUKITEL/K6000Pro/et
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/OUKITEL/K6000Pro/usr,system/usr)
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/OUKITEL/K6000Pro/xbin,system/xbin)
+
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/OUKITEL/K6000Pro/vendor,system/vendor)
