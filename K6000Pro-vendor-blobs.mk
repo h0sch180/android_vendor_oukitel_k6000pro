@@ -1,3 +1,5 @@
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/OUKITEL/K6000Pro/app,system/app)
+
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/OUKITEL/K6000Pro/lib,system/lib)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/OUKITEL/K6000Pro/lib64,system/lib64)
